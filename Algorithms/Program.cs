@@ -31,7 +31,7 @@
 
 //Console.WriteLine(soz + " - " + sozuzunlugu + " herf");
 
-// 28_______________________ Yarimciq
+// 28_______________________
 
 //string tapilmalimeyve = "alma";
 
@@ -42,19 +42,28 @@
 //Console.WriteLine("3 sans ile tapsaz qazanirsiz, eks halda meglub olursuz");
 //Console.WriteLine("Baslayaq");
 //Console.WriteLine("Hansi meyvedir bu? Meyvenin adini daxil edin:");
-//string texminedilen = Console.ReadLine().ToLower();
 
-//for (int count = 1; count < 3; count++)
+//int limit = 3;
+//bool check = false;
+
+//for (int count = 1; count <= limit; count++)
 //{
+//    string texminedilen = Console.ReadLine().ToLower();
 //    if (texminedilen == tapilmalimeyve)
 //    {
 //        Console.WriteLine("Siz qazandiniz tebrikler");
+//        check = true;
+//        break;
 //    }
-//    else
+//    else if (count < limit)
 //    {
-//        texminedilen = Console.ReadLine().ToLower();
+//        Console.WriteLine("Yeniden yoxlayin");
 //    }
 //}
+
+//if (!check)
+//Console.WriteLine("Siz meglub oldunuz, tapmali oldugunuz meyve:" + tapilmalimeyve);
+
 
 
 
@@ -149,31 +158,31 @@
 
 // 33_______________________
 
-int row = 3;
-int col = 3;
-int[,] matrix = new int[row, col];
+//int row = 3;
+//int col = 3;
+//int[,] matrix = new int[row, col];
 
-int[,] matrixs1 = {
-    { 2, 5, 8, },
-    { 12, 15, 1},
-    { 13, 16, 1},
-};
+//int[,] matrixs1 = {
+//    { 2, 5, 8, },
+//    { 12, 15, 1},
+//    { 13, 16, 1},
+//};
 
-int[,] matrixs2 = {
-    { 5, 5, 10,},
-    { 4, 9, 18},
-    { 6, 7, 19},
-};
+//int[,] matrixs2 = {
+//    { 5, 5, 10,},
+//    { 4, 9, 18},
+//    { 6, 7, 19},
+//};
 
 
-int[,] toplamatrix = new int[row, col];
+//int[,] toplamatrix = new int[row, col];
 
-for (int i = 0; i < row; i++)
-{
-    for (int j = 0; j < col; j++)
-    {
-        toplamatrix[i, j] = matrixs1[i, j] * matrixs2[i, j];
-        Console.Write(" " + toplamatrix[i, j]);
-    }
-    Console.WriteLine();
-}
+//for (int i = 0; i < row; i++)
+//{
+//    for (int j = 0; j < col; j++)
+//    {
+//        toplamatrix[i, j] = matrixs1[i, j] * matrixs2[i, j];
+//        Console.Write(" " + toplamatrix[i, j]);
+//    }
+//    Console.WriteLine();
+//}
