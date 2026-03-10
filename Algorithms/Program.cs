@@ -12,16 +12,16 @@
 //}
 //else Console.WriteLine("Daxil etdiyiniz eded 1 ve 100 araliginda deyil");
 
-// 26_______________________ Yarimciq
+// 26_______________________
 
 //Console.WriteLine("Adinizi Daxil Edin:");
 //string ad = Console.ReadLine();
 //Console.WriteLine("Soyadinizi Daxil Edin:");
 //string soyad = Console.ReadLine();
 
-//string netice = (string)ad.Concat(soyad);
+//string netice = String.Concat(ad, " ", soyad);
 
-//Console.WriteLine(netice);
+//Console.WriteLine("Welcome " + netice);
 
 // 27_______________________
 
@@ -43,9 +43,8 @@
 //Console.WriteLine("Baslayaq");
 //Console.WriteLine("Hansi meyvedir bu? Meyvenin adini daxil edin:");
 //string texminedilen = Console.ReadLine().ToLower();
-//int count = 0;
 
-//if(count <= 3)
+//for (int count = 1; count < 3; count++)
 //{
 //    if (texminedilen == tapilmalimeyve)
 //    {
@@ -54,44 +53,127 @@
 //    else
 //    {
 //        texminedilen = Console.ReadLine().ToLower();
-//        count++;
 //    }
 //}
-//else Console.WriteLine("Siz meglub oldunuz");
+
 
 
 
 // 29_______________________
 
-//for (int i = 0; i < 100; i++)
+//for (int i = 1; i <= 99; i++)
 //{
-//    if (i % 7 == 0 && i % 10 == 7)
+//    if (i % 7 == 0 || i % 10 == 7)
 //    {
-//        string stri = Convert.ToString(i);
+//        string stri = (string)Convert.ToString(i);
 //        stri = "DIZZ";
+//        Console.Write(stri + ", ");
 //    }
-//    Console.Write(i  + ",");
+//    else
+//    {
+//        if (i != 99)        // 99 dan sonra axirinci vergul dusmesin deye if serti yazmisam
+//        {
+//            Console.Write(i + ", ");
+//        }
+//        else { 
+//            Console.WriteLine(i); 
+//        }
+//    }
 //}
 
 // 30_______________________
 
-int [] arr = [10, 12, 22, 10, 32, 22, 16, 32, 22, 10, 11, 23, 32, 10, 10, 23, 23, 15];
-int count = 0;
+//int [] arr = [10, 12, 22, 10, 32, 22, 16, 32, 22, 10, 11, 23, 32, 10, 10, 23, 23, 15];
+//int count = 1;
+//Array.Sort(arr);
 
-for(int i = 0;  i < arr.Length; i++)
-{
-    if (arr[i] != arr[i - 1])
-    {
-        int ferqli = arr[i];
-        count++;
-    }
-    Console.WriteLine(count);
-}
+//for(int i = 1;  i < arr.Length; i++)
+//{
+//    if (arr[i] != arr[i-1])
+//    {
+//        count++;
+//    }
+//}
+//Console.WriteLine(count);
+
 
 // 31_______________________
 
+//int row = 3;
+//int col = 3;
+//int[,] matrix = new int[row, col];
+
+//int[,] matrixs = {
+//    { 2, 5, 8 },
+//    { 3, 9, 8 }
+//};
+
+//for (int i = 0; i < row; i++)
+//{
+//    for (int j = 0; j < col; j++)
+//    {
+//        Console.WriteLine(matrixs[i, j]);
+//    }
+//    Console.WriteLine();
+//}
 
 // 32_______________________
+//int row = 3;
+//int col = 3;
+//int[,] matrix = new int[row, col];
 
+//int[,] matrixs1 = {
+//    { 2, 5, 8, },
+//    { 12, 15, 1}, 
+//    { 13, 16, 1},
+//};
+
+//int[,] matrixs2 = {
+//    { 5, 5, 10,},
+//    { 4, 9, 18}, 
+//    { 6, 7, 19},
+//};
+
+
+//int[,] toplamatrix = new int[row, col];
+
+//for (int i = 0; i < row; i++)
+//{
+//    for (int j = 0; j < col; j++)
+//    {
+//        toplamatrix[i, j] = matrixs1[i, j] + matrixs2[i, j];
+//        Console.Write(" " + toplamatrix[i,  j]);
+//    }
+//    Console.WriteLine();
+//}
 
 // 33_______________________
+
+int row = 3;
+int col = 3;
+int[,] matrix = new int[row, col];
+
+int[,] matrixs1 = {
+    { 2, 5, 8, },
+    { 12, 15, 1},
+    { 13, 16, 1},
+};
+
+int[,] matrixs2 = {
+    { 5, 5, 10,},
+    { 4, 9, 18},
+    { 6, 7, 19},
+};
+
+
+int[,] toplamatrix = new int[row, col];
+
+for (int i = 0; i < row; i++)
+{
+    for (int j = 0; j < col; j++)
+    {
+        toplamatrix[i, j] = matrixs1[i, j] * matrixs2[i, j];
+        Console.Write(" " + toplamatrix[i, j]);
+    }
+    Console.WriteLine();
+}
