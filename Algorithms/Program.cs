@@ -31,18 +31,67 @@
 
 //Console.WriteLine(soz + " - " + sozuzunlugu + " herf");
 
-// 28_______________________
+// 28_______________________ Yarimciq
 
-string tapilmalimeyve = "alma";
+//string tapilmalimeyve = "alma";
 
-Console.WriteLine("Oyunun Qaydalari:");
-Console.WriteLine("Bir Meyve adi var onu tapmalisiniz");
-Console.WriteLine("3 sansiniz var");
-Console.WriteLine("3 sans ile tapsaz qazanirsiz, eks halda meglub olursuz");
-Console.WriteLine("Baslayaq");
-Console.WriteLine("Hansi meyve");
 
+//Console.WriteLine("Oyunun Qaydalari:");
+//Console.WriteLine("Bir Meyve adi var onu tapmalisiniz");
+//Console.WriteLine("3 sansiniz var");
+//Console.WriteLine("3 sans ile tapsaz qazanirsiz, eks halda meglub olursuz");
+//Console.WriteLine("Baslayaq");
+//Console.WriteLine("Hansi meyvedir bu? Meyvenin adini daxil edin:");
+//string texminedilen = Console.ReadLine().ToLower();
+//int count = 0;
+
+//if(count <= 3)
+//{
+//    if (texminedilen == tapilmalimeyve)
+//    {
+//        Console.WriteLine("Siz qazandiniz tebrikler");
+//    }
+//    else
+//    {
+//        texminedilen = Console.ReadLine().ToLower();
+//        count++;
+//    }
+//}
+//else Console.WriteLine("Siz meglub oldunuz");
 
 
 
 // 29_______________________
+
+//for (int i = 0; i < 100; i++)
+//{
+//    if (i % 7 == 0 && i % 10 == 7)
+//    {
+//        string stri = Convert.ToString(i);
+//        stri = "DIZZ";
+//    }
+//    Console.Write(i  + ",");
+//}
+
+// 30_______________________
+
+int [] arr = [10, 12, 22, 10, 32, 22, 16, 32, 22, 10, 11, 23, 32, 10, 10, 23, 23, 15];
+int count = 0;
+
+for(int i = 0;  i < arr.Length; i++)
+{
+    if (arr[i] != arr[i - 1])
+    {
+        int ferqli = arr[i];
+        count++;
+    }
+    Console.WriteLine(count);
+}
+
+// 31_______________________
+
+
+// 32_______________________
+
+
+// 33_______________________
