@@ -1,0 +1,14 @@
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\bin\Debug\net8.0\Tasks-ref out.exe
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\bin\Debug\net8.0\Tasks-ref out.deps.json
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\bin\Debug\net8.0\Tasks-ref out.runtimeconfig.json
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\bin\Debug\net8.0\Tasks-ref out.dll
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\bin\Debug\net8.0\Tasks-ref out.pdb
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\obj\Debug\net8.0\Tasks-ref out.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\obj\Debug\net8.0\Tasks-ref out.AssemblyInfoInputs.cache
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\obj\Debug\net8.0\Tasks-ref out.AssemblyInfo.cs
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\obj\Debug\net8.0\Tasks-ref out.csproj.CoreCompileInputs.cache
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\obj\Debug\net8.0\Tasks-ref out.dll
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\obj\Debug\net8.0\refint\Tasks-ref out.dll
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\obj\Debug\net8.0\Tasks-ref out.pdb
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\obj\Debug\net8.0\Tasks-ref out.genruntimeconfig.cache
+C:\Users\Classtime.PC_6_213_9\Desktop\C-Tasks\Algorithms\Tasks-ref out\obj\Debug\net8.0\ref\Tasks-ref out.dll
